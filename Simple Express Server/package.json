@@ -1,0 +1,28 @@
+{
+  "name": "SimpleExpresServer",
+  "version": "1.0.0",
+  "description": "test server for express JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meet2kautuk/NodeJS.git"
+  },
+  "keywords": [
+    "Express",
+    "Node",
+    "JS"
+  ],
+  "author": "KK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meet2kautuk/NodeJS/issues"
+  },
+  "homepage": "https://github.com/meet2kautuk/NodeJS",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
