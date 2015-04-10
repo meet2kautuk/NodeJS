@@ -1,0 +1,23 @@
+{
+  "name": "Car",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "properties": {
+    "Model": {
+      "type": "string"
+    },
+    "Id": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "Price": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
