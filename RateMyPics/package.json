@@ -1,1 +1,28 @@
-
+{
+  "name": "RateMyPics",
+  "version": "1.0.0",
+  "description": "app to rate and like dislike pics",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meet2kautuk/NodeJS.git"
+  },
+  "keywords": [
+    "rate",
+    "my",
+    "pics"
+  ],
+  "author": "KK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meet2kautuk/NodeJS/issues"
+  },
+  "homepage": "https://github.com/meet2kautuk/NodeJS"
+}
