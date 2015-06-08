@@ -1,0 +1,18 @@
+{
+  "name": "TinyTwitterServer",
+  "version": "1.0.0",
+  "description": "Node based tiny Twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "twitter"
+  ],
+  "author": "KK",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}
