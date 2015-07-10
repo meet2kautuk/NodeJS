@@ -7,19 +7,25 @@ module.exports = function(grunt){
                     {
                         expand: true,
                         cwd: "node_modules/bootstrap/dist/",
-                        src: "**/*",
+                        src: ["fonts/*", "css/bootstrap.css", "css/bootstrap-theme.css", "js/bootstrap.js"],
                         dest: "app/assets/bootstrap/"
                     },
                     {
                         expand: true,
                         cwd: "node_modules/jquery/dist/",
-                        src: "**/*",
-                        dest: "app/assets/jquery/"
+                        src: ["jquery.js"],
+                        dest: "app/assets/libs/"
                     },
                     {
                         expand: true,
                         cwd: "node_modules/jquery-mockjax/",
                         src: "jquery.mockjax.js",
+                        dest: "app/assets/libs/"
+                    },
+                    {
+                        expand: true,
+                        cwd: "node_modules/angular/",
+                        src: ["angular.js"],
                         dest: "app/assets/libs/"
                     }
                 ]
